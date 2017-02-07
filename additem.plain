@@ -1,0 +1,65 @@
+# Barcode
+	Exists:
+		null.
+		Not null.
+	Content:
+		Only contains numbers.          
+		Contains other characters. 		
+		Is a single number. 
+	
+	Value:
+		<99.								
+		99.								
+		>99 and <9999.					
+		9999.							
+		>9999.							
+										 
+	
+# itemName 
+	Exists:
+		null.                          	
+		Not null.
+	Content:
+		Empty.							
+		No special characters.			
+		Contains special characters.	
+
+		
+# itemType_s 
+	Identifiable by type:
+		Identifiable.		
+		Not identifiable.	
+			
+	
+# qty
+	Exists:
+		null.
+		Not null.
+	Content:
+		Only contains numbers.
+		Contains other characters. 
+	Value:
+		<0.									 
+		0.
+		>0 and <100.
+		100.
+		>100.								 								 
+
+# supplier
+	Exists:
+		null.
+		Not null.
+	Content:
+		Empty.								 
+		Contains special characters.		 
+		No special characters.
+
+
+# desc
+	Exists:
+		null.
+		Not null.
+	Content:
+		Empty.
+		Contains special characters.
+		No special characters.
